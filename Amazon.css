@@ -1,0 +1,293 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font: arial;
+    color: white;
+    
+}
+.logo img{
+    height: 3rem;
+    width: 5rem;
+    object-fit: contain;
+    color: #2162A1;
+     margin-bottom: 2rem;
+     padding: 0.3rem;
+     padding-top: 0.8rem;
+}
+.logo img:hover{
+    outline:0.05rem solid white ;
+    border-radius: 0.2rem;
+   
+}
+.navbar{
+    display: flex;
+background-color: #0f1111;
+height: 4rem;
+width: 100%;
+}
+.nav-logo{
+    padding: 0.5rem;
+}
+.location {
+   height: 2rem;
+   width:1rem;
+   }
+   .location i{
+    padding-left: 1.5rem;
+    padding-top:2rem ;
+   }
+   .wrapper{
+    border-radius:0.2rem ;
+   margin-bottom: 0.5rem; 
+    margin-top: 0.5rem;
+    padding: 0.5rem 0.3rem 0.5rem 1.5rem;
+   }
+   .input{
+    padding-left: 1.5rem;
+    display: flex;
+    align-items: center;
+  }
+    .input1{
+        padding-left: 1.5rem;
+        max-width: 100%;
+        border: none;
+        color:#0f1111;
+        height: 3rem;
+        width: 35rem;
+        font-size: 2rem;
+        border: border-box;
+        border-color: rgb(235,176,15);
+        font-size: 0.85rem;
+        font-style: 900;  
+    }
+    .input select{
+        color: #0f1111;
+        height: 3rem;
+        padding: 0.75rem;
+        border-bottom-left-radius: 0.4rem;
+        border-top-left-radius: 0.4rem;
+        background-color: rgb(211, 206, 206);
+        border: none;
+        }
+         .search-icon  {
+        height: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items:center ;
+        margin-top: 0.5rem;
+        background-color: rgb(218, 156, 23);
+        height: 3rem;
+        width: 3rem;
+         border-bottom-right-radius: 0.4rem;
+        border-top-right-radius: 0.4rem;
+        padding: 0.4rem;   
+    }
+    .input select:hover{
+        background-color: rgb(158, 154, 154);
+        }  
+        .search-icon:hover{
+        background-color: rgb(199, 150, 15);}
+
+      .lang {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+    height: 3rem;
+    margin-top: 0.5rem;
+    padding-inline: 0.3rem;
+    }
+      .lang img {
+        height: 2.3rem;
+        width: 2rem;
+        padding-right: 0.2rem;
+        object-fit: contain;
+        padding-top: 0.9rem;
+      }
+      .lang h5{
+        padding-top: 1rem;
+      }
+      .lang:hover{
+        outline: 0.05rem solid white;
+        border-radius: 0.1rem; 
+      }
+     .wrapper:hover{
+        outline: 0.1rem solid white;
+     }
+     .lang select{
+        background-color: #0f1111;
+        border: none;
+        margin-top: 1rem;
+        font-style:900;
+     }
+     .hello{
+      padding-top: 0.5rem;
+     padding-left: 1.5rem;
+        height: 3rem;
+       width:9rem ; 
+       margin-top: 0.5rem;  
+     }
+     .hello:hover{
+        outline: 0.1rem solid white;
+        border-radius: 0.2rem;
+      }
+     .returns{
+    padding-top: 0.5rem;
+     padding-left: 1.5rem;
+        height: 3rem;
+       width:6rem ; 
+       margin-top: 0.5rem;
+      }
+     .returns:hover{
+        outline: 0.1rem solid white;
+         border-radius: 0.2rem;
+         }
+     .cart{
+      padding-top: 0.5rem;
+     padding-left: 1.5rem;
+        height: 3rem;
+       width:7rem ; 
+       margin-top: 0.5rem;
+       display: flex;
+     }
+     .cart h4{ 
+      padding: 1rem;
+      padding-left: 0.1rem;
+     }
+      .carti i{
+        box-sizing: border-box;
+        font-size: 2rem;
+        margin-bottom: 1rem;
+     }
+     .cart:hover{
+        outline:0.1rem solid white;
+  border-radius: 0.2rem;
+    }
+    .jnavbar{
+      height: 2.2rem;
+      width: 100%;
+      background-color: #343535;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+    .jnavbar .icon{
+      display:flex;
+          }
+          h6{
+            font-size: 0.9rem;
+          }
+    .pic{
+      height: 20rem;
+      width: 100%;
+      overflow-x: hidden;
+    }
+    .options{
+      height: auto;
+      width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(225, 243, 237);
+    }
+    .box{
+      height: 300px;
+      width: 22%;
+      background-color:white;
+      margin-top: 1rem;
+      color: black;
+      display: flex;
+      flex-direction: column;
+    }
+    .box h2{
+      font-size: 2rem;
+      font-weight: 700;
+      color: black;
+      padding: 1rem 0rem 0rem 1.35rem;
+    }
+    .box img {
+      height: 100%;
+      width: 100%;
+      padding: 1rem 1rem 0.3rem 1.5rem ;
+    }
+    .box a{
+      color: rgb(26, 10, 243);
+      padding: 0rem 0rem 0.2rem 1.35rem;
+    }
+    .box a:hover{
+      text-decoration: underline;
+    }
+    .label2{
+      height: 4rem;
+      width: 100%;
+      background-color:#131A22;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .label{
+      background-color: #131A22;
+      height: 4rem;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .label1{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-top: 0.5rem;
+    }
+    .label1 img{
+      height: 1.5rem;
+      width: 3rem;
+      object-fit: contain;
+    }
+    .details{
+      display: flex;
+      justify-content: space-evenly;
+    }
+    .contact{
+      height: 10rem;
+      width: 100%;
+      background-color: #0f1111;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      padding: 1rem;
+    }
+    .contact a{
+      padding-top: 0.5rem;
+      font-size: 0.8rem;
+    }
+    .contact a:hover{
+    text-decoration: underline;}
+    .foot{
+      height: 5rem;
+      width: 100%;
+      background-color: #131A22;
+      color: azure;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 0.4px;
+    }
+    .foot1{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      width: 30rem;
+    }
+    .foot1 a{
+      font-size: 0.8rem;
+      padding-left: 1rem;
+      padding-bottom: 0.5rem;
+    }
+    .foot1 a:hover{
+      text-decoration: underline;
+    }
