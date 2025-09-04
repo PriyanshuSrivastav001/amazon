@@ -210,11 +210,11 @@ width: 100%;
     .box img {
       height: 100%;
       width: 100%;
-      padding: 1rem 1rem 0.3rem 1.5rem ;
+      padding: 1rem 1rem 1.3rem 1.5rem ;
     }
     .box a{
       color: rgb(26, 10, 243);
-      padding: 0rem 0rem 0.2rem 1.35rem;
+      padding: 0rem 0rem 0.7rem 1.35rem;
     }
     .box a:hover{
       text-decoration: underline;
