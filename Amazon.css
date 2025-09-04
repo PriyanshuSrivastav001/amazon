@@ -249,12 +249,14 @@ h6 {
 }
 
 .box a {
-  color: rgb(26, 10, 243);
+  color: rgb(12, 4, 124);
   padding: 0rem 0rem 0.7rem 1.35rem;
+  
 }
 
 .box a:hover {
   text-decoration: underline;
+   cursor:pointer;
 }
 
 .label2 {
