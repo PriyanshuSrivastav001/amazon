@@ -27,7 +27,7 @@
   display: flex;
   background-color: #0f1111;
   height: 4rem;
-  width: 100%;
+  width: vw;
 }
 
 .nav-logo {
@@ -194,7 +194,7 @@
 
 .jnavbar {
   height: 2.2rem;
-  width: 100%;
+  width: vw;
   background-color: #343535;
   display: flex;
   justify-content: center;
@@ -212,13 +212,13 @@ h6 {
 
 .pic {
   height: 20rem;
-  width: 100%;
+  width: vw;
   overflow-x: hidden;
 }
 
 .options {
   height: auto;
-  width: 100%;
+  width: vw;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -261,7 +261,7 @@ h6 {
 
 .label2 {
   height: 4rem;
-  width: 100%;
+  width: vw;
   background-color: #131A22;
   color: white;
   display: flex;
@@ -273,7 +273,7 @@ h6 {
 .label {
   background-color: #131A22;
   height: 4rem;
-  width: 100%;
+  width: vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -318,7 +318,7 @@ h6 {
 
 .foot {
   height: 5rem;
-  width: 100%;
+  width: vw;
   background-color: #131A22;
   color: azure;
   display: flex;
